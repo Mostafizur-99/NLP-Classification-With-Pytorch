@@ -15,3 +15,20 @@ Text Classification (or Text Categorization, Document Classification) is the pro
 # Model used
 - Bert Based.
 - Distil Bert Based.
+
+# Model Training
+
+- Language Model (LM) Training
+    - use pre-tained LM-baseline,Distilbert,Robert
+    - language-specific vs. multi-language - the latter ones are larger
+- Domain Adaption of Language Model
+    - refine LM with task specific data (optional)
+- Downstream task training
+    - class imbalance - do nothing, oversampling, class weights
+    - class imbalance - do nothing, oversampling, class weights
+    -model head config
+- Model Trainigng
+    - Batch size
+    - learning rate
+    -iterations/steps
+- Cross validation
